@@ -19,15 +19,15 @@ public class AmazonTest extends Base {
 		
 		click(page.getInstanceOfHome().getSignInLink());
 		sendkeys(page.getInstanceOfHome().getEmailTextBox(), "arun.kumar8940@gmail.com");
-	
-		click( page.getInstanceOfHome().getContinue_button());
-		click(page.getInstanceOfHome().getSignInButton());
-		sendkeys(page.getInstanceOfSearch().getSearchTextBox(), "iphone 13");
-		click(page.getInstanceOfSearch().getSearchButton());
-		click(page.getInstanceOfSearch().getSelectMobile());
-		click(page.getInstanceOfSearch().getBuyNowButton());
-		page.getInstanceOfSearch().searchProduct();
-		page.getInstanceOfAddress().deliveryAddress(); 
+		driver.close();
+//		click( page.getInstanceOfHome().getContinue_button());
+//		click(page.getInstanceOfHome().getSignInButton());
+//		sendkeys(page.getInstanceOfSearch().getSearchTextBox(), "iphone 13");
+//		click(page.getInstanceOfSearch().getSearchButton());
+//		click(page.getInstanceOfSearch().getSelectMobile());
+//		click(page.getInstanceOfSearch().getBuyNowButton());
+//		page.getInstanceOfSearch().searchProduct();
+//		page.getInstanceOfAddress().deliveryAddress(); 
 	}
 
 }
