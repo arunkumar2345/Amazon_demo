@@ -46,8 +46,8 @@ jobs:
         
         
         steps:
-  - name: Sample Azure action
+  - name: Sample action
     with: # Set Azure credentials secret as an input
-      credentials: ${{ secrets.AZURE_CREDENTIALS }}
+      credentials: ${{ secrets.CREDENTIALS }}
     env: # Or as an environment variable
-      credentials: ${{ secrets.AZURE_CREDENTIALS }}
+      credentials: ${{ secrets.CREDENTIALS }}
