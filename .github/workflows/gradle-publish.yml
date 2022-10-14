@@ -45,7 +45,7 @@ jobs:
         TOKEN: ${{ secrets.GITHUB_TOKEN }}
         
         
-        steps:
+steps:
   - name: Sample action
     with: # Set Azure credentials secret as an input
       credentials: ${{ secrets.CREDENTIALS }}
